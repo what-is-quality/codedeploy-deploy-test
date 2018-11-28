@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source:  /
-    destination: /home/ec2-user/codedeploy-deploy-test/
+  - source: /appspec.yml
+    destination: /home/ec2-user/temp
   - source:  /dir-symlink
     destination: /home/ec2-user/dir-symlink
   - source:  /file-symlink
