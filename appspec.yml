@@ -3,3 +3,7 @@ os: linux
 files:
   - source:  /
     destination: /home/ec2-user/codedeploy-deploy-test/
+  - source:  /dir-symlink
+    destination: /home/ec2-user/dir-symlink
+  - source:  /file-symlink
+    destination: /home/ec2-user/file-symlink/
